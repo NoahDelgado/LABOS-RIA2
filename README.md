@@ -8,9 +8,9 @@ This repository has been published here for educational purposes. It consists of
 
 Pre-requisites :
 
-* npm 10.4.0 ou ultérieure [official doc](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)
-* node v20.11.0 ou ultérieure [official doc](https://nodejs.org/en/download)
-* git version 2.43.0.windows ou ultérieure [official doc](https://git-scm.com/)
+* npm 10.4.0 or upper [official doc](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)
+* node v20.11.0 or upper [official doc](https://nodejs.org/en/download)
+* git version 2.43.0.windows or upper [official doc](https://git-scm.com/)
 
 Note : Configuration tested and validated on Webstorm IDE version 2023.3.2
 
@@ -34,8 +34,34 @@ Note : Configuration tested and validated on Webstorm IDE version 2023.3.2
 In Preferences | Languages & Frameworks | JavaScript | Libraries, press Download..., select 'jest' from the list of available stubs, press Download and Install
 ```
 
+## VueJs Config and useful commands
+
+* [VueJs - Quick Start](https://vuejs.org/guide/quick-start)
+
+Note : this demo repo includes many projects. Move into the right one.
+
+* Solve dependencies
+
+```
+    npm install
+```
+
+Note : fix high vulnerability issues (```npm audit fix```)
+
+* Run in dev mode 
+
+```
+    npm run dev
+```
+
+* Prepare the app to the prod
+
+```
+    npm run build
+```
+
 ## Contributing
 We welcome your feedback. Use the issues.
 
 ## License
-[MIT](LICENCE.md)
+[MIT](LICENSE.md)
